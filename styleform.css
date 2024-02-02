@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(255, 152, 143);
+    color: rgb(254, 243, 235);
+    border: 10px solid rgb(254, 243, 235);
+    padding: 10px;
+}
+hr{
+    border: 1px solid;
+}

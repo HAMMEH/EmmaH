@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: rgb(159, 239, 199);
+}
+header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(34, 139, 95);
+    text-align: center;
+    display: inline-block;
+    position: fixed;
+    z-index: 4;
+    border-radius: 200px;
+}
+.header{
+    position: relative ;
+    top: 30px;
+    text-align: center;
+}
+main {
+    position: absolute;
+    top: 110px;
+    width: 100%;
+    display: inline-block;
+}
+p{
+    text-align: center;
+    font-size: large;
+    font-family:Georgia, 'Times New Roman', Times;
+    font-weight: bold;
+}
+section{
+    height: 150px;
+    width: 150px;
+    border: 3px solid rgb(52, 101, 68);
+    border-radius: 50px;
+    display: inline-block;
+    margin: 10px;
+    background-size: 150px 150px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: rgb(136, 135, 135);
+    z-index: 2;
+}
+overlay{
+z-index: 99;
+position: absolute;
+width: 100%;
+height: 750px;
+left: 0px;
+}
+
+.rightside1{
+float: left;
+
+.catfood{
+    background-image: url(cat\ food.webp)
+}
+.catinsure{
+    background-image: url(Healthy-Paws-Pet-Insurance-680x680.jpg)
+}
+.cattoy{
+    background-image: url(CAT\ TOY.jpg)
+}
+}
+
+
+.leftside1{
+float: right;
+
+
+.dogfood{
+    background-image: url(dog\ food.webp)
+}
+.doginsure{
+    background-image: url(Healthy-Paws-Pet-Insurance-680x680.jpg)
+}
+.dogtoy{
+    background-image: url(DOG\ TOY.jpg)
+}
+}
+
+
+.rightside2{
+    float: left;
+
+.birdfood{
+    background-image: url(bird\ food.jpg)
+}
+.birdinsure{
+    background-image: url(nationwide.jpg)
+}
+.birdtoy{
+    background-image: url(BIRD\ TOY.jpg)
+}
+}
+
+.leftside2{
+    float: right;
+
+.fishfood{
+    background-image: url(fish\ food.jpg)
+}
+.fishinsure{
+    background-image: url(nationwide.jpg)
+}
+.fishtoy{
+    background-image: url(FISH\ TOY.jpg)
+}
+}
+
+.rightside3{
+    float: left;
+
+.rodentfood{
+    background-image: url(rodent\ food.jpg)
+}
+.rodentinsure{
+    background-image: url(nationwide.jpg)
+}
+.rodenttoy{
+    background-image: url(RODENT\ TOY.webp)
+}
+}
+
+.leftside3{
+    float: right;
+
+.reptilefood{
+    background-image: url(reptile\ food.webp)
+}
+.reptileinsure{
+    background-image: url(nationwide.jpg)
+}
+.reptiletoy{
+    background-image: url(REPTILE\ TOY.jpg)
+}
+}

@@ -1,0 +1,21 @@
+body{
+    background-color: #FFF8E9;
+}
+overlay img{
+    z-index: 99;
+    position: absolute;
+    width: 100%;
+    height: 750px;
+    left: 0px;
+}
+.sectionright {
+    width: 25%;
+    float: right;
+    height: 800px;
+}
+
+.sectionleft {
+    width: 50%;
+    float: left;
+    height: 800px;
+}

@@ -1,0 +1,26 @@
+body{
+    background-color: #DCDCFF;
+}
+overlay img{
+    z-index: 99;
+    position: absolute;
+    width: 100%;
+    height: 750px;
+    left: 0px;
+}
+.position1{
+    width: 35%;
+    float: left;
+    height: 400px;
+}
+.position2{
+    width: 25%;
+    float: right;
+    height: 400px;
+}
+.position3{
+    width: 40%;
+    float: right;
+    height: 400px;
+    
+}
